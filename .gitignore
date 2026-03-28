@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# uv
+.uv/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Testing & coverage
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# Type checking
+.mypy_cache/
+.dmypy.json
+.pyright/
+
+# Linting
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Editor & IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Logs & temp files
+*.log
+*.tmp
+*.bak
+
+# LangChain / LLM artifacts
+langchain.db
+chroma_db/
+faiss_index/
+vectorstore/
